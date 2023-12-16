@@ -36,7 +36,7 @@ app.use("/api/v1/order", orderRoutes);
 app.use("/api/v1/latestproduct", latestproductRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Hello, Vercel!");
+  res.send("Hello, Vercel! Successfully Deploy");
 });
 
 
